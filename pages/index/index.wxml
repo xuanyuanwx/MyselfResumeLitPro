@@ -1,0 +1,192 @@
+<view>
+  <view class='resume-header'>
+    <view class="resume_info">RESUME</view>
+    <view class='resume_info1'>{{header}}</view>
+    <image class='header-bg'  src='/images/road.jpg'></image>
+    <image class='headicon'  src='/images/headicon.png'></image>
+  </view>
+
+  <view class="con_about">
+    <view class="con_title"><text>关于我</text></view>
+    <view class="myinfo">
+      <ul>
+        <li><image src='/images/admin.png'></image>{{name}}</li>
+        <li><image src='/images/birthday.png'></image>{{birthday}}</li>
+        <li><image src='/images/doctor.png'></image>{{xueli}}</li>
+        <li><image src='/images/time.png'></image>{{worktime}}</li>
+        <li><image src='/images/position.png'></image>{{address}}</li>
+        <li><image src='/images/lover.png'></image>{{profession}}</li>
+      </ul>
+    </view>
+  </view>
+  
+  <view class="content">
+    <view class="con_title"><text>工作经验</text></view>
+    <view class="work">
+      <view class="work_til" bindtap="tapProgramlist1"><text>麟龙科技(2018年6月~至今)</text><text class="arrow" >></text></view>
+      <view class="programlist" wx:if="{{showView1}}">
+        <ul>
+        <li><text>项目名</text>：贴心天气小程序</li>
+        <li><text>介绍</text>：可以实时查询天气变化，洗车指数等信息；</li>
+        <li><text>担当</text>：前端开发</li>
+        <li><text>技术</text>：Html5,Css3,Javascript,Vue等</li>
+        <view class="divLine"></view>
+        <li><text>项目名</text>：如来神涨</li>
+        <li><text>介绍</text>：股票查看功能，可以让用户查看指定股票的详细信息，如交易代码、现交易价、涨跌幅度等；</li>
+        <li><text>担当</text>：前端开发</li>
+        <li><text>技术</text>：Html5,Css3,Canvas,Ajax等</li>
+      </ul>
+      </view>
+    </view>
+    <view class="work">
+      <view class="work_til" bindtap="tapProgramlist2"><text>和勤联创(2016年4月~2018年6月)</text><text class="arrow" >></text></view>
+      <view class="programlist" wx:if="{{showView2}}">
+        <ul>
+        <li><text>项目名</text>：和地图天气栏目</li>
+        <li><text>介绍</text>：针对公司出行页面以及天气栏目的页面开发需求，实现移动端的出行首页，天气详情; </li>
+        <li><text>担当</text>：前端开发</li>
+        <li><text>技术</text>：Html5,Css3,Javascript,JQuery等</li>
+        <view class="divLine"></view>
+        <li><text>项目名</text>：家庭宽带业务</li>
+        <li><text>介绍</text>：融合家庭控制网络和多媒体信息网络于一体的家庭信息化平台</li>
+        <li><text>担当</text>：前端开发</li>
+        <li><text>技术</text>：Html5,Css3,Javascript,JQuery等</li>
+      </ul>
+      </view>
+    </view>
+    <view class="work">
+      <view class="work_til" bindtap="tapProgramlist3"><text>浙江网盛(2013年6月~2016年3月)</text><text class="arrow" >></text></view>
+      <view class="programlist" wx:if="{{showView3}}">
+        <ul>
+        <li><text>项目名</text>：中国螺杆网 </li>
+        <li><text>介绍</text>：螺杆专业市场与螺杆行业人脉服务平台</li>
+        <li><text>担当</text>：前端开发(前后端)</li>
+        <li><text>技术</text>：Html,Css,Javascript,PHP等</li>
+      </ul>
+      </view>
+    </view> 
+  </view>
+  <view class="content">
+    <view class="con_title"><text>技能栈</text></view>
+    <view class="myinfo">
+      <ul>
+        <li>Web前后端: JAVA / PHP / HTML5 / Javascript </li>
+        <li>CSS框架: Bootstrap / SASS / Less</li>
+        <li>JS框架: JQuery/ AngularJs / Vue</li>
+        <li>构建工具: Webpack / NPM</li>
+        <li>数据库相关: MySQL / Oracle</li>
+        <li>版本管理: SVN / Git </li>
+        <li>测试: 自动化测试 / Vs </li>
+        <li>微信: 公众号开发 / 小程序开发 </li>
+        <li>其他： PS / Axure等</li>
+        <li>英语： CET4</li>
+      </ul>
+    </view>
+  </view>
+  <view class="content">
+    <view class="con_title"><text>技能关键字</text></view>
+    <view class="myinfo">
+      <ul>
+        <li><text>JavaScript：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>HTML5：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>CSS3：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>JQUERY：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>Git/SVN：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>VUE2：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>AngularJS：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>PHP：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>Mysql：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>Webpack：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>Charts：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+        <li><text>Java：</text>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star1.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+            <image src='/images/star0.png'></image>
+        </li>
+      </ul>
+    </view>
+  </view>
+  <view class="content">
+    <view class="con_title"><text>联系方式</text></view>
+    <view class="myinfo">
+      <ul>
+        <li><image src='/images/phone.png'></image>137****6461</li>
+        <li><image src='/images/email.png'></image>1261021527@qq.com</li>
+        <li><image src='/images/wechat.png'></image>1261021527</li>
+        <li><image src='/images/github.png'></image>@xuanyuanwx</li>
+      </ul>
+    </view>
+  </view>
+  <view class="content">
+    <view class="con_title"><text>致谢</text></view>
+    <view class="thks"><image src='/images/thks.png'></image>感谢您花时间阅读我的简历，期待能有机会和您共事。</view>
+  </view>
+</view>

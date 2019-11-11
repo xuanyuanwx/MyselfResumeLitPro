@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "王旭个人简历",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 3000
+  },
+  "sitemapLocation": "sitemap.json"
+}
