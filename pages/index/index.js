@@ -2,7 +2,7 @@ Page({
   data: {
     header:'Xu.Wang FE Engineer',
     name:'王旭/男',
-    birthday: '1989-09-14',
+    birthday: '农历八月十五',
     xueli: '本科/辽宁科技大学 软件学院',
     worktime: (new Date().getFullYear() - 2013) +'年（工作年限）',
     address: '沈阳',
